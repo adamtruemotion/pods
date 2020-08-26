@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
     spec.author = 'TrueMotion'
     spec.platform = :ios, "11.0"
     spec.swift_version = "5.0"
-    spec.source = { :path => '~/Developer/frameworks/TrueMotionInternal' }
+    spec.source = { :http => 'file://~/Developer/frameworks/TrueMotionInternal' }
     spec.vendored_frameworks = "TrueMotionInternal.framework"
     spec.dependency 'TrueMotionCore', '1.0.0-develop'
     spec.dependency 'RxSwift', '~> 5.1.1'
